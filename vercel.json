@@ -1,18 +1,21 @@
 {
-    "version": 2,
-    "builds": [
+  "version": 2,
+  "builds": [
       {
-        "src": "portfolio/portfolio.py",
-        "use": "@vercel/python"
+          "src": "build.sh",
+          "use": "@vercel/static-build",
+          "config": {
+              "distDir": "public"
+          }
       }
-    ],
-    "routes": [
+  ],
+  "routes": [
       {
-        "src": "/(.*)",
-        "dest": "portfolio/portfolio.py"
+          "src": "/(.*)",
+          "dest": "/public/$1"
       }
-    ]
-  }
+  ]
+}
   
   
   
