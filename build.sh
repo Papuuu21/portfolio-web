@@ -1,10 +1,11 @@
-python -m venv .venv
-venv\Scripts\activate
+mkdir public
+python3 -m venv .venv
+source .venv/bin/activate
 python -m pip install --upgrade pip
 pip install -r requirements.txt
-rmdir /s /q public
+rm -rf public
 reflex init
 reflex export --frontend-only
-tar -xf frontend.zip -C public
-del frontend.zip
+unzip frontend.zip -d public
+rm -f frontend.zip
 deactivate
