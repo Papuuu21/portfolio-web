@@ -61,8 +61,17 @@
         {
             "icon" : "devicon-python-plain colored",
             "name" : "LangChain"
+        },
+        {
+            "icon" : "devicon-python-plain colored",
+            "name" : "Ollama"
+        },
+        {
+            "icon" : "devicon-python-plain colored",
+            "name" : "OpenAI"
         }
     ],
+
     "experience" : [
         {
             "icon" : "computer",

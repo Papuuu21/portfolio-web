@@ -8,7 +8,7 @@ from portfolio.views.tech_stacks import tech_stacks
 from portfolio.views.extra import extra
 from portfolio import data
 
-DATA = data.data
+DATA = data.data  
 
 def index() -> rx.Component:
     return rx.center(
