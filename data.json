@@ -4,7 +4,7 @@
     "image" : "data/foto carnet.jpg",
     "avatar" : "data/foto carnet.jpg",
     "name": "Pablo Diaz de Alva",
-    "skill": "Data Analyst, data Science, data Engeenier & IA Developer",
+    "skill": "Data Analyst, Data Science, Data Engeenier & IA Developer",
     "location" : "Malaga, Andalucia, Spain",
     "media" : {
         "email" : "dealva.pablo@gmail.com",
@@ -69,6 +69,10 @@
         {
             "icon" : "devicon-python-plain colored",
             "name" : "OpenAI"
+        },
+        {
+            "icon" : "devicon-css3-plain",
+            "name" : "CSS"
         }
     ],
 
@@ -86,7 +90,7 @@
             "title" : "Creacion de infraestructuras de redes WIFI (Proyecto Vuela JdA)",
             "subtitle" : "Innovasur SL",
             "description" : "Dise\u00f1o de redes WIFI para proyecto Vuela de la agencia ADA de la Junta Andalucia y dise\u00f1o de racks, cableado estructurado y ubicacion de APs para la cobertura WIFI en sus sedes, como por ejemplo el Palacio de Justicia de Malaga. Auditorias instalaciones y puesta en marcha de la electronica de red. Analisis de cobertura, velocidad y seguridad en redes inalambricas y auditorias en la instalacion de puntos de acceso y antenas para optimizar se\u00f1al. Colaboracion en proyectos de implementacion de tecnologias WIFI avanzadas.",
-            "image" : "data/innovasur_logo.png",
+            "image" : "data/Logo-innovasur-2.jpeg",
             "date" : "2 years"
         },
         {
@@ -200,7 +204,11 @@
                 },
                 {
                     "icon" : "devicon-amazonwebservices-plain-wordmark colored",
-                    "name" : "Arquitectura Cloud"
+                    "name" : "Arquitectura Cloud AWS"
+                },
+                {
+                    "icon" : "devicon-azure-plain colored",
+                    "name" : "Arquitectura Cloud Azure"
                 },
                 {
                     "icon" : "devicon-scala-plain colored",
@@ -223,7 +231,19 @@
                     "name" : "ML/DL/NLP"
                 },
                 {
-                    "icon" : "devicon-python-plain",
+                    "icon" : "",
+                    "name" : "ETL y DataWarehouse"
+                },
+                {
+                    "icon" : "",
+                    "name" : "Arquitectura Big Data"
+                },
+                {
+                    "icon" : "",
+                    "name" : "PowerBI"
+                },
+                {
+                    "icon" : "",
                     "name" : "Tableau"
                 }
             ]
@@ -280,7 +300,7 @@
             "icon" : "scroll",
             "title" : "Diplomas certificaciones tech",
             "subtitle" : "Udemy, Keepcoding, Andalucia Vuela y Scrum",
-            "description" : "Diplomas de las certificaciones tech de autoaprendizaj en las plataformas de Udemy, Keepcoding, Andalucia Vuela y Scrum ",
+            "description" : "Diplomas de las certificaciones tech de autoaprendizaje en las plataformas de Udemy, Keepcoding, Andalucia Vuela y Scrum ",
             "date" : "1 years",
             "certificate" : "data/Diplomas_tech.pdf",
             "technologies" : [
@@ -319,7 +339,8 @@
                 {
                     "icon" : "devicon-flask-original",
                     "name" : "Flask"
-                },{
+                },
+                {
                     "icon" : "",
                     "name" : "Scrum Master"
                 },

@@ -69,7 +69,7 @@ class Data:
         self.extras = [Extras(**info) for info in extras]
 
 
-with open("assets/data/data.json") as file:
+with open("data.json") as file:
     json_data = json.load(file)
 
-    data = Data(**json_data)
+    data = Data(**json_data) 
