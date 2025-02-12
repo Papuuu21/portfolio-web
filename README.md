@@ -12,6 +12,6 @@ Portfolio web Desarrollado utilizando [Python](https://python.org) y [Reflex](ht
 <a href="./portfolio.png"><img src="./portfolio.png" style="height: 50%; width:50%;"/></a>
 
 ### Para más información visitame en:
-* [Linkeding](https://www.linkedin.com/in/papudiaz/) 
+* [Linkedin](https://www.linkedin.com/in/papudiaz/) 
 * [Portfolio](https://pablodealva-web.reflex.run/)
 * [GitHub](https://github.com/Papuuu21)
